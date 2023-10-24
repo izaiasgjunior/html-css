@@ -20,6 +20,7 @@
 body {
     font-family: var(--fonte-padrao);
     background-color: white;
+    min-height: 100vh;
     margin: 0px;
     
 }
@@ -28,6 +29,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    font-variant: small-caps;
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -108,7 +110,7 @@ h1 {
     font-family: var(--font-titulo);
     color: white;
     padding: 0px;
-    font-size: 7em;
+    font-size: 7vw;
     margin: 0px;
     margin-top: 20px;
     
