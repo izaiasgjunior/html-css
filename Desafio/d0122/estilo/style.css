@@ -50,7 +50,7 @@ section {
 }
 
 .img1 {
-    background-image: url(imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     color: white;
     box-shadow: 2px 6px 17px #000000de;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ section {
 }
 
 .img2 {
-    background-image: url(imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     color: white;
     box-shadow: 2px 6px 17px #000000de;
     background-repeat: no-repeat;
