@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio coluna</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            padding: 10px;
+
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        .fundo, .fundo > th {
+            background-color: gray;
+            color: white;
+        }
+
+        .alinhar {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio de Tabela</h1>
+   <table>
+    <caption>Boletim de notas</caption>
+    <thead>
+        <tr class="fundo">
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplina</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
+        </tr>
+
+        <tr class="fundo">
+            <th scope="col">Nota 1</th>
+            <th scope="col">Nota 2</th>
+        </tr>
+
+        <tr>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <td class="alinhar">Matemática</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td class="alinhar">Física</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td class="alinhar">Química</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td class="alinhar">Biologia</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr class="fundo">
+            <th colspan="4" scope="row" class="alinhar">Média de Exatas</th>
+            <td class="fundo">10</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2" scope="rowgroup">Humanas</th>
+            <td class="alinhar">História</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td class="alinhar">Geografia</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+
+        <tr class="fundo">
+            <th colspan="4" scope="row" class="alinhar">Média de Humana</th>
+            <td>10</td>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+    </tbody>
+   </table> 
+</body>
+</html>
