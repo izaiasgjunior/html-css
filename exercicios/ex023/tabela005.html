@@ -22,12 +22,28 @@
             border: 1px solid black;
             padding: 8px;
         }
+        col.cnome{
+            background-color: aquamarine;
+        }
+
+        col.csexo {
+            background-color: aqua;
+        }
+
     </style>
 </head>
 <body>
     <h1>Exercicio de tabela</h1>
 
     <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>   
@@ -44,17 +60,35 @@
         </tr>
 
         <tr>
-            <th>Felipe Almeida</th>
+            <th>Felipe</th>
             <td>M</td>
             <td>29</td>
             <td>Profesor</td>
         </tr>
 
         <tr>
-            <th>Carlos Algusto</th>
+            <th>Carlos</th>
             <td>M</td>
             <td>30</td>
             <td>Vereador</td>
+        </tr>
+        <tr>
+            <th>Hector</th>
+            <td>M</td>
+            <td>35</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <th>Lucinda</th>
+            <td>F</td>
+            <td>59</td>
+            <td>Aposentada</td>
+        </tr>
+        <tr>
+            <th>Lucicleidersen</th>
+            <td>M</td>
+            <td>18</td>
+            <td>Vendedora</td>
         </tr>
     </table>
 
