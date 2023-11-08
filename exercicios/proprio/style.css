@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+:root {
+    --cor0:#2600ff;
+    --cor1:#4a47ff;
+    --cor2:#ff7300;
+    --cor3:#0077ff;
+    
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-idroid: 'idroid', sans-serif;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+body {
+    width: 100vw;
+    margin: auto;
+    background-image: var('');
+    font-family: var(--font-padrao);
+}
+main{
+    background-color: var(--cor0);
+    width: 100vw;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    
+    
+}
+header{
+    text-align: center;
+}
+
+#sidebar   {
+    position: absolute;
+    left: -250px;
+    width: 100px;
+    height: 400px;
+    background: red;
+    margin: center;    
+}
+
+#page-wrap  {
+    position: relative;
+    width: 100px;
+    background: #ffffff;
+    height: 400px;
+    margin: auto;
+    top: ;
+}
+
+#other{
+   position: relative;
+    right: -250px ;
+    width: 100px;
+    background: #ff00ff;
+    height: 400px;
+    margin: left;
+}
+
+#corte {
+    position: absolute;
+    background-color: #ff7300;
+    width: 90px;
+    height: 600px;
+    top: 10px;
+    transform: rotate(110deg);
+    left: 935px;
+}
+
+h2 {
+    text-align: center;
+}
