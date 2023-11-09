@@ -17,63 +17,59 @@
         padding: 0px;
     }
 
-body {
-    width: 100vw;
-    margin: auto;
-    background-image: var('');
-    font-family: var(--font-padrao);
-}
-main{
-    background-color: var(--cor0);
-    width: 100vw;
-    padding: 20px;
-    margin: auto;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    body {
+        background-image: linear-gradient(to left, blue, rgb(98, 0, 255));
+    }
+    header{
+        background-image: linear-gradient(to left, blue, rgb(98, 0, 255));
+        padding: 20px 20px 0px 20px;
+        text-align: center;
+        min-height: auto;
+    }
+
+    header > h1 {
+        padding-bottom: 1px;
+        color: white;
+        font-size: 7vw;
+        font-weight: bold;
+        margin: 20px;
+        text-shadow: 1px 1px 3px black;
+        font-variant: small-caps;
+
+    }
+
+    header > p {
+        color: white;
+        padding-bottom: 10px;
+        font-size: 1.3vw;
+        text-shadow: 1px 1px 3px black;
+        padding-bottom: 25px;
+        
+        
+    }
+
+    section{
+        font-size: 2.3vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        
+    }
+
+
     
+    #img2 {
+        background-image: url(img/back.jpg);
+        color: white;
+        box-shadow: 2px 6px 17px #000000de;
+        background-repeat: no-repeat;
+        background-attachment: ;
+        background-position: right center;
+        background-size: cover;
+    }
+
+    main {
+        background-color: #ff7300;
+        margin: auto;
+        box-shadow: inset;
+    }
     
-}
-header{
-    text-align: center;
-}
-
-#sidebar   {
-    position: absolute;
-    left: -250px;
-    width: 100px;
-    height: 400px;
-    background: red;
-    margin: center;    
-}
-
-#page-wrap  {
-    position: relative;
-    width: 100px;
-    background: #ffffff;
-    height: 400px;
-    margin: auto;
-    top: ;
-}
-
-#other{
-   position: relative;
-    right: -250px ;
-    width: 100px;
-    background: #ff00ff;
-    height: 400px;
-    margin: left;
-}
-
-#corte {
-    position: absolute;
-    background-color: #ff7300;
-    width: 90px;
-    height: 600px;
-    top: 10px;
-    transform: rotate(110deg);
-    left: 935px;
-}
-
-h2 {
-    text-align: center;
-}
