@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            max-width: 100%;
+            max-height: 50vh;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(29, 27, 27);
+            
+        }
+
+        .container {
+            display: flex;
+            padding: 30px 10px;
+            border: 1px solid rgb(245, 245, 245);
+            color: aliceblue;
+            justify-content: center;
+            flex-direction: row;
+
+            
+
+        }
+
+        .curriculo {
+            margin-right: 20px;
+            display: inline-block;
+            border: 1px solid rgb(253, 253, 253);
+            box-shadow: 1px 1px 16px 0px rgb(255, 0, 0);
+
+        }
+
+        .curriculo h2 {
+            margin-top: 0.3vw;
+            text-align: center;
+        }
+
+        .curriculo p {
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 0.6em;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+
+        .curriculo img {
+            height: 270px;
+            width: 196px;
+            box-shadow: 0px 6px 1px black;
+        }
+
+        .imdb::after {
+            content: '🌟🌟🌟🌟🌟'
+            ;
+        }
+
+        .curriculo:hover {
+            background-image: linear-gradient(to bottom, black, transparent);
+            transform: scale(1.1);
+
+
+        }
+        .imgg{
+            padding-top: 15px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="curriculo">
+            <h2>Mr robot</h2>
+            <p>Elliot Alderson, um engenheiro de cibersegurança <br> e hacker que sofre de transtorno<br> de ansiedade social e depressão.</p>
+            <p class="imdb">Classificação</p>
+            <img src="img/mrrobot2.jpg" alt="">
+
+
+        </div>
+        <div class="curriculo">
+            <h2>The Walking Dead</h2>
+            <p>conta a história de um grupo de sobreviventes,<br> liderados pelo xerife Rick Grimes </p>
+            <p class="imdb">Classificação</p>
+            <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/78/35/82/20303823.jpg" alt=""  class="imgg">
+        </div>
+        <div class="curriculo">
+            <h2>Breaking Bad</h2>
+            <p> portador de poliomielite, o professor fica <br> com medo de morrer e deixá-los na pobreza.</p>
+            <p class="imdb">Classificação</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC91BAQHION92627O4uWDC4pNozjTafV_GVA&usqp=CAU" alt="" class="imgg">
+        </div>
+
+        <div class="curriculo">
+            <h2>Suits</h2>
+            <p>Harvey Specter e sua equipe iniciam <br> uma disputa pelo poder quando um novo<br> sócio se junta à empresa</p>
+            <p class="imdb">Classificação</p>
+            <img src="https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg" alt="" clas>
+        </div>
+
+        <div class="curriculo">
+            <h2>Animal Kingdom</h2>
+            <p>Um jovem de 17 anos, Joshua "J" Cody,<br> vive em uma conturbada <br> família, cheia de problemas com a justiça. <br>
+                contra o capitalismo </p>
+            <p class="imdb">Classificação</p>
+            <img src="https://br.web.img3.acsta.net/pictures/16/09/28/17/09/342322.jpg" alt="">
+        </div>
+
+        <div class="curriculo">
+            <h2>Game Of Thrones</h2>
+            <p> jogo político em Westeros, o continente<br> de um mundo fantástico onde há regiões <br> governadas por Casas nobres </p>
+            <p class="imdb">Classificação</p>
+            <img src="https://br.web.img3.acsta.net/pictures/19/03/21/16/15/4239577.jpg" alt="">
+        </div>
+
+</body>
+
+</html>
